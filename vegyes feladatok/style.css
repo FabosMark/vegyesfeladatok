@@ -1,0 +1,92 @@
+body {
+    background-color: green;
+}
+
+#auto {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    float: left;
+    width: 100 px;
+    height: auto;
+}
+
+table {
+    clear: both;
+}
+
+table, td {
+    border: 2px black solid;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#elso {
+    background-image: url(smiley2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul {
+    list-style-image: url(smiley2.png);
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: none;
+}
+
+div {
+    border: grey 1px solid;
+    margin: 0px 50px;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+div h1::first-letter {
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+div > p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
+
+h4 {
+    font-style: italic;
+}
+
+#paris {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+#kep {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border: none;
+}
