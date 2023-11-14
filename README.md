@@ -1,0 +1,2 @@
+# vegyesfeladatok
+orai munka
